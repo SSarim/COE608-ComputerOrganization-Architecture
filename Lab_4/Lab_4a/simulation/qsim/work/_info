@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student1/sshahwar/Desktop/COE608/Lab_4/Lab_4a/simulation/qsim
+vdata_mem
+Z1 IhG>WaPH0Ri1WdBTTlMBDK2
+Z2 VL<K96ePMGACHbKJ@:L?6^2
+Z3 d/home/student1/sshahwar/Desktop/COE608/Lab_4/Lab_4a/simulation/qsim
+Z4 w1707673311
+Z5 8lab_4a.vo
+Z6 Flab_4a.vo
+L0 32
+Z7 OV;L;10.1e;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 EmNVBDY=_G283_7bMjPS[0
+!s85 0
+Z10 !s108 1707673313.487189
+Z11 !s107 lab_4a.vo|
+Z12 !s90 -work|work|lab_4a.vo|
+!s101 -O0
+vdata_mem_vlg_check_tst
+!i10b 1
+!s100 FDV=nij?NN1RXPMWFg=9O0
+Ijoh]6]o=6`D90>5;g1RMI0
+ViRY:BS6O^Am1;?O`[0bKT3
+R3
+Z13 w1707673305
+Z14 8Lab-4a-Waveform.vwf.vt
+Z15 FLab-4a-Waveform.vwf.vt
+L0 66
+R7
+r1
+!s85 0
+31
+Z16 !s108 1707673316.367149
+Z17 !s107 Lab-4a-Waveform.vwf.vt|
+Z18 !s90 -work|work|Lab-4a-Waveform.vwf.vt|
+!s101 -O0
+R8
+vdata_mem_vlg_sample_tst
+!i10b 1
+!s100 1NC?Mn2TPW0m2UA:1EAE@3
+IczYcY5OPkzA@?k4L=<BP52
+V1RkYmZG]TfekzW9Ui<N082
+R3
+R13
+R14
+R15
+L0 30
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vdata_mem_vlg_vec_tst
+!i10b 1
+!s100 W[kT[;9THj6i17XleJm6F2
+I=dbT<BU0kSUMYchPKC6HY0
+V@K8D@ZkME;XaT1;7GzGcL3
+R3
+R13
+R14
+R15
+L0 718
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

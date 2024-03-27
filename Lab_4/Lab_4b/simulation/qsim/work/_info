@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/student1/sshahwar/Desktop/COE608/Lab_4/Lab_4b/simulation/qsim
+vDataPath
+Z1 !s100 =ok[6QFfCfE]mICd612NV2
+Z2 I?L;YaSO<HRKf64lz>Pk;<1
+Z3 VHe:k^m>i03DM7nXF16o?13
+Z4 d/home/student1/sshahwar/Desktop/COE608/Lab_4/Lab_4b/simulation/qsim
+Z5 w1709845256
+Z6 8Lab_4b.vo
+Z7 FLab_4b.vo
+L0 32
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -work|work|Lab_4b.vo|
+Z10 o-work work -O0
+Z11 n@data@path
+!i10b 1
+!s85 0
+Z12 !s108 1709845258.834241
+Z13 !s107 Lab_4b.vo|
+!s101 -O0
+vDataPath_vlg_check_tst
+!i10b 1
+Z14 !s100 kfC`P6TBBc[5Yd5m3Aa=S0
+Z15 I[z^DclZFbYG^EnkN=7GOB0
+Z16 V:Oj9;17;fY^Hg>R=`>:P53
+R4
+Z17 w1709845253
+Z18 8LDB.vwf.vt
+Z19 FLDB.vwf.vt
+Z20 L0 106
+R8
+r1
+!s85 0
+31
+Z21 !s108 1709845259.340082
+Z22 !s107 LDB.vwf.vt|
+Z23 !s90 -work|work|LDB.vwf.vt|
+!s101 -O0
+R10
+Z24 n@data@path_vlg_check_tst
+vDataPath_vlg_sample_tst
+!i10b 1
+Z25 !s100 f;l?[HcB@:K84M;KE9:nU3
+Z26 IWF`Pn6LKJzV@d51=@fj=T0
+Z27 V:IQWE[HGjQ8J1<2l;lY_F1
+R4
+R17
+R18
+R19
+L0 30
+R8
+r1
+!s85 0
+31
+R21
+R22
+R23
+!s101 -O0
+R10
+Z28 n@data@path_vlg_sample_tst
+vDataPath_vlg_vec_tst
+!i10b 1
+Z29 !s100 aS;icelH:3Qni=<OJT?Hz1
+Z30 IcOhUb_?zAOz_V0j56og>11
+Z31 VTG1PFl<jzSm=_>o8]X3A<1
+R4
+R17
+R18
+R19
+Z32 L0 4473
+R8
+r1
+!s85 0
+31
+R21
+R22
+R23
+!s101 -O0
+R10
+Z33 n@data@path_vlg_vec_tst

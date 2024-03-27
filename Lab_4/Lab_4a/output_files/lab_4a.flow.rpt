@@ -1,0 +1,132 @@
+Flow report for lab_4a
+Thu Feb 15 12:10:30 2024
+Quartus II 64-Bit Version 14.0.2 Build 209 09/17/2014 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Thu Feb 15 12:10:30 2024       ;
+; Quartus II 64-Bit Version          ; 14.0.2 Build 209 09/17/2014 SJ Full Version ;
+; Revision Name                      ; lab_4a                                      ;
+; Top-level Entity Name              ; data_mem                                    ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE115F29C7                               ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 9,943 / 114,480 ( 9 % )                     ;
+;     Total combinational functions  ; 5,769 / 114,480 ( 5 % )                     ;
+;     Dedicated logic registers      ; 8,224 / 114,480 ( 7 % )                     ;
+; Total registers                    ; 8224                                        ;
+; Total pins                         ; 75 / 529 ( 14 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                       ;
+; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/15/2024 12:06:33 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lab_4a              ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                          ;
++-------------------------------------+----------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                                                ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+----------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 26403095510035.170801679202404                                       ; --            ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                                                                   ; --            ; --          ; eda_simulation ;
+; EDA_NETLIST_WRITER_OUTPUT_DIR       ; /home/student1/sshahwar/Desktop/COE608/Lab_4/Lab_4a/simulation/qsim/ ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                                          ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)                                            ; <None>        ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                   ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                    ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                                                 ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                                                             ; --            ; data_mem    ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                                ; --            ; data_mem    ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                               ; --            ; data_mem    ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                         ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; data_mem                                                             ; lab_4a        ; --          ; --             ;
++-------------------------------------+----------------------------------------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:25     ; 1.0                     ; 1019 MB             ; 00:00:19                           ;
+; Fitter                    ; 00:02:37     ; 1.6                     ; 1558 MB             ; 00:03:18                           ;
+; Assembler                 ; 00:00:06     ; 1.0                     ; 815 MB              ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:19     ; 1.2                     ; 1008 MB             ; 00:00:10                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 958 MB              ; 00:00:02                           ;
+; Total                     ; 00:03:30     ; --                      ; --                  ; 00:03:54                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                                ;
++---------------------------+---------------------+--------------+--------------+----------------+
+; Module Name               ; Machine Hostname    ; OS Name      ; OS Version   ; Processor type ;
++---------------------------+---------------------+--------------+--------------+----------------+
+; Analysis & Synthesis      ; opera.ee.ryerson.ca ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; Fitter                    ; opera.ee.ryerson.ca ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; Assembler                 ; opera.ee.ryerson.ca ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; TimeQuest Timing Analyzer ; opera.ee.ryerson.ca ; CentOS Linux ; CentOS Linux ; x86_64         ;
+; EDA Netlist Writer        ; opera.ee.ryerson.ca ; CentOS Linux ; CentOS Linux ; x86_64         ;
++---------------------------+---------------------+--------------+--------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lab_4a -c lab_4a
+quartus_fit --read_settings_files=off --write_settings_files=off lab_4a -c lab_4a
+quartus_asm --read_settings_files=off --write_settings_files=off lab_4a -c lab_4a
+quartus_sta lab_4a -c lab_4a
+quartus_eda --read_settings_files=off --write_settings_files=off lab_4a -c lab_4a
+
+
+
